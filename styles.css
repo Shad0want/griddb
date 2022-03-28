@@ -1,0 +1,163 @@
+body {
+    background-color: rgba(238, 238, 238, 0.781);
+    color: rgb(24, 27, 24);
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: greenyellow;
+}
+
+.avatar {
+    width: 250px;
+    border-radius: 50%;
+    box-shadow: 4px 4px 14px rgba(red, rgb(5, 37, 5), rgb(9, 9, 80), alpha);
+}
+
+a:visited {
+    color: hotpink;
+}
+
+.info {
+    
+    margin-bottom: 16px;
+}
+
+.info p {
+    color: rgb(53, 54, 61);
+    margin: 0;
+    
+}
+
+.ochko {
+    max-width: 750px;
+    margin: auto;
+    margin-bottom: 15 px;
+@media(max-width:700px){
+    .info{
+        text-align: center;
+        display: block;
+    }
+}
+}
+.bg-yellow {
+    background: rgb(238, 238, 185);
+}
+.bg-green {
+    background: rgb(171, 235, 171);
+}
+.bg-red {
+    background: rgb(248, 177, 177);
+}
+.card {
+    padding: 10px 12px;
+    margin-bottom: 12px;
+    border-radius: 12px; 
+}
+.card h2 {
+    margin-bottom: 10px;
+}
+.list {
+    padding: 0 10px;
+    list-style: 0;
+    margin-bottom: 10px;
+    color: #86898f;
+}
+.table{
+    width: 100%;
+}
+.table td {
+    padding-bottom: 10px;
+}
+.table td:nth-child(2),.table td:nth-child(3){
+color: #86898f;
+
+} 
+.contact h2 {
+    text-align: center;
+
+}
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color:#86898f
+
+}
+.form-group input
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid rgb(70, 69, 69);
+    padding: 15px 0 10 px;
+    outline: none;
+    font-family: inherit;
+    font-family: inherit;
+
+}
+.row{
+    display: flex;
+    margin-bottom: 20px;
+}
+.row >.form-group :first-child{
+    margin-right: 20px;
+}
+.btn{
+background: #111;
+padding: 15px 20px;
+color: #fff;
+font-family: inherit;
+cursor: pointer;
+}
+.btn:hover{
+    opacity: 0.9;
+}
+.ggg {
+    background: #111;
+
+    color: #fff;
+    font-family: inherit;
+    cursor: pointer;
+
+
+}
+.maxwd {
+@media(max-width:700px){
+    .ochko{
+        text-align: center;
+        display: block;
+    }
+}
+
+
+
+/*.soci al { 
+    background: rgba(97, 128, 212, 0.911);
+    padding: 7px 5px;
+    margin: 6px 4px;
+    border: 8px solid gold;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+} 
+/*.box-model >div { 
+    float: left;
+    background: #000;
+    height: 150px; 
+    border:2px solid red;
+    width:25%;
+    box-sizing: border-box;
+
+}
